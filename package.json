@@ -1,6 +1,6 @@
 {
   "name": "redux-socket.io-middleware",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Another middleware which allows you to connect your Redux app and Socket.io",
   "main": "dist/redux-socket.io-middleware.js",
   "repository": {
