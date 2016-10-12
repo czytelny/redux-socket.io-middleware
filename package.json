@@ -1,0 +1,25 @@
+{
+  "name": "redux-socket.io-middleware",
+  "version": "1.0.0",
+  "description": "Another middleware which allows you to connect your Redux app and Socket.io",
+  "main": "redux-socket.io-middleware.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/czytelny/redux-socket.io-middleware.git"
+  },
+  "keywords": [
+    "redux",
+    "middleware",
+    "socket.io",
+    "socketio",
+    "socket",
+    "io",
+    "websockets"
+  ],
+  "author": "Michal Chwedczuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/czytelny/redux-socket.io-middleware/issues"
+  },
+  "homepage": "https://github.com/czytelny/redux-socket.io-middleware#readme"
+}
