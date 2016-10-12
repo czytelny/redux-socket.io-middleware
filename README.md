@@ -28,7 +28,7 @@ npm install --save redux-socket.io-middleware
 *store.js*
 ```javascript
 import socketIO from 'socket.io-client';
-import socketIoMiddleware from './redux-socket.io-middleware'
+import socketIoMiddleware from 'redux-socket.io-middleware'
 
 const reducers = (...);
 
@@ -122,3 +122,6 @@ and then on your backend side, listen on that string:
         /// ...
       })
   });
+
+
+*Yeah, I know that this readme is much longer than a code itself :) *
