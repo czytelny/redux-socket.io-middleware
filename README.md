@@ -1,6 +1,6 @@
 # redux-socket.io-middleware
 Another dead-simple middleware which allows you to connect Redux and Socket.io.
-Is uses `meta` property of your action object to recognize whether send it to backend, or not. 
+It uses `meta` property of your action object to recognize whether send it to backend, or not. 
  
 
 ## Idea
@@ -9,10 +9,9 @@ Is uses `meta` property of your action object to recognize whether send it to ba
 - Whenever you want to send and handle an event from your **Backend** to 
 **Client** - emit it on backend with socket.io in a form of regular `action` and it will 
 be handled by forwarding it to `store.dispatch()` - your reducers 
-should take care of the rest of logic.
+should take care of the rest.
 
-**Important side note** - action object send thorough Socket.io must be 
- Object literal. It can't be a function (so unfortunately**thunk** drops out).
+**Important side note** - action object send thorough Socket.io must be standard javascript object literal. It can't be a function (so unfortunately **thunk** drops out).
 
 
 
@@ -66,7 +65,7 @@ function addUserRequestFailure() {
 }
 
 ```
-and then somewhere you dispatch this kind of action like any other:
+And then you dispatch this type of action like any other:
 
 *yourReactComponentContainer.js*
 ```javascript
@@ -122,6 +121,6 @@ and then on your backend side, listen on that string:
         /// ...
       })
   });
-````
+```
 
-*Yeah, I know that this readme is much longer than a code itself :) *
+*Yeah, I know that this readme is much longer than a code itself :)*
