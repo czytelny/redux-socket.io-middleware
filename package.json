@@ -5,7 +5,7 @@
   "main": "dist/redux-socket.io-middleware.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/czytelny/redux-socket.io-middleware.git"
+    "url": "git+https://github.com/czytelny/redux-socket.io-middleware.git"
   },
   "keywords": [
     "redux",
